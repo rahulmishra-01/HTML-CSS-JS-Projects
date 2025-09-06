@@ -1,0 +1,114 @@
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    /* border: 1px solid black; */
+    font-family: sans-serif;
+}
+header nav{
+    /* border: 1px solid black; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .nav-links{
+    display: flex;
+}
+nav .nav-links ul{
+    display: flex;
+    align-items: center ;
+    gap: 20px;
+    padding: 0 20px;
+}
+nav .nav-links ul li{
+    /* border: 1px solid; */
+    padding: 10px;
+    border-radius: 8px;
+}
+nav .nav-links-buttons button{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+nav .nav-links ul li:hover{
+     background-color: rgb(241, 238, 238);
+}
+nav .nav-links-buttons button:hover{
+     background-color: rgb(241, 238, 238);
+}
+nav .nav-links-buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-links-buttons button{
+    /* border-radius: 8px; */
+    font-size: 1rem;
+}
+nav .log-in-btn{
+    position: relative;
+}
+nav .log-in-btn::after{
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: -16%;
+    height: 60%;
+    width: 1px;
+    border-left: 1px solid rgb(187, 182, 182);
+}
+nav .nav-links-buttons .start-for-free-btn{
+    background-color: #cf3520;
+    color: white;
+    font-weight: 600;
+}
+nav .nav-links-buttons .start-for-free-btn:hover{
+    background-color: #b62512;
+}
+nav .dropdownParent{
+    position: relative;
+}
+nav .dropdown{
+    position: absolute;
+    top: 110%;
+    left: 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgb(170, 166, 166);
+    box-shadow: rgba(150, 72, 72, 0.35) 0px 5px 15px;
+    transition: all 0.3s;
+    display: none;
+}
+
+nav .dropdownParent:hover .dropdown{
+    display: block;
+}
+nav .dropdown ul{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 20px;
+}
+.dropdown ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+    width: 100%;
+}
+.dropdown ul li i{
+    color: #a8a6a6;
+}
+.dropdown ul li p{
+    font-weight: 600;
+    color: #3f3d3d;
+}
