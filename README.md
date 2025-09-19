@@ -7,11 +7,11 @@ Each project has its own folder with source code and details.
 
 ## 🚀 Projects
 
-### 1. todoest-clone
+### 1. Todo App
 **Description:** Todo list app.  
 **Tech Stack:** HTML, CSS, JavaScript
 
-🔗 [Live Demo](https://todoistclonebyrahulmishra.netlify.app/) | [GitHub Repo](https://github.com/rahulmishra-01/HTML-CSS-JS-Projects/tree/main/todoist-clone)
+🔗 [Live Demo]() | [GitHub Repo](https://github.com/rahulmishra-01/HTML-CSS-JS-Projects/tree/main/Todo_App)
 
 ---
 
