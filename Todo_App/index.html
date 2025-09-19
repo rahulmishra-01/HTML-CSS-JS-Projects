@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <!-- Header Section Start -->
+    <header>
+        <nav class="container navbar">
+            <a href="#">Todo App</a>
+            <div class="inputContainer">
+                <input id="mainInput" type="text" placeholder="Enter Your Task..." autocomplete="off">
+                <button id="addTask"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <ul>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Study</a></li>
+                <li><a href="#">Personal</a></li>
+                <li><a href="#">Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header Section End -->
+     <!-- Main Content Start -->
+      <main>
+        <div class="container taskContentContainer">
+            <aside class="taskContentSidebar"></aside>
+            <div class="tasksContainer">
+                <div class="taskListContainer" id="taskListContainer">
+                    <div class="taskContainer">
+                        <div class="checkbox" id="checkbox">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <input type="text" id="taskInput">
+                        <div class="taskButtons">
+                            <button id="taskWordDeleteBtn"><i class="fa-solid fa-delete-left"></i></button>
+                            <button id="taskEditBtn"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button id="taskDeleteBtn"><i class="fa-solid fa-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </main>
+     <!-- Main Content End -->
+</body>
+</html>
